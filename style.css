@@ -1,144 +1,4 @@
-/*h1 {
-  color : green;
-}
-p {
 
-  color : yellow;
-}
-button {
-
-  color : black;
-  background-color : red;
-}
-body{
-/*  background-color:rgb(167, 22, 92);-->*/
-/*background-color:#203634;}*/
-
-/* universal selector*/
-/* *{
-  color : green
-}
-/* Element Selector */
-//// */
-
-/*id Selector*/
-/* #HeadingOne{
-   color: brown;
-} */
-/* #HeadingTwo{
-   color: red;
-} */
-/* #HeadingThree{
-   color: blue;
-} */
-//header and onno tag er ekoi color korte class selector
-/* .myClass{
-  color : magenta;
-} */
-  /* #box{
-   background-color : blue;
- } */
-
-  /* *{
-    background-color : black;
-    //color:green;
-  } 
-
-  p{
-    background-color : red;
-    text-align:right;
-  }
-  h1{
-    color : green;
-    text-align : center;
-   // background-color : chocolate;
-    text-decoration :  blue underline;
-   // text-decoration : overline;
-   // text-decoration : line-through;
-  } */
-
-  /* <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>INSIGHT - IICT, SUST</title>
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-
-  <!-- Header -->
-  <header>
-    <div class="container">
-      <h1>INSIGHT - IICT, SUST</h1>
-      <nav id="navbar">
-        <a href="#about">About</a>
-        <a href="#events">Events</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Hero -->
-  <section class="hero">
-    <div class="container">
-      <h2>Welcome to INSIGHT</h2>
-      <p>The official platform of IICT students – organizing events, coding fests, workshops and more!</p>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section id="about" class="section">
-    <div class="container">
-      <h3>About Us</h3>
-      <p>INSIGHT is the student organization under IICT, Shahjalal University of Science and Technology. We aim to foster innovation, collaboration, and technical growth among students through events, workshops, and seminars on programming, robotics, AI, and more.</p>
-    </div>
-  </section>
-
-  <!-- Events -->
-  <section id="events" class="section bg-light">
-    <div class="container">
-      <h3>Upcoming Events</h3>
-      <div class="card-grid">
-        <div class="card">
-          <h4>Coding Contest</h4>
-          <p>Join our monthly coding challenge and win exciting prizes!</p>
-        </div>
-        <div class="card">
-          <h4>AI Workshop</h4>
-          <p>Learn the basics of Artificial Intelligence and build your first model.</p>
-        </div>
-        <div class="card">
-          <h4>Tech Talk</h4>
-          <p>Guest sessions by industry experts and alumni sharing career tips.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="section">
-    <div class="container">
-      <h3>Contact Us</h3>
-      <p>Email: <a href="mailto:insight@sust.edu">insight@sust.edu</a></p>
-      <p>Location: IICT Building, SUST Campus</p>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p>© 2025 INSIGHT - IICT, SUST. All rights reserved.</p>
-    </div>
-  </footer>
-
-</body>
-</html> */
-/* Reset + Fonts */
-/* Reset + Fonts */
-/* About Page Styling */
-/* Reset + Fonts */
-/* Reset + Fonts */
 * {
   margin: 0;
   padding: 0;
@@ -156,8 +16,16 @@ body {
   max-width: 1200px;
   margin: auto;
   padding: 10px 20px;
+  display:flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-right: 10px
 }
-
+.link{
+   display:flex;
+  justify-content: space-between;
+  list-style: none;
+}
 /* TOP BAR */
 .topbar {
   background: #f1f1f1;
@@ -469,3 +337,71 @@ nav ul li a.active {
   list-style: square;
   padding-left: 20px;
 }
+
+
+/* contact */
+
+.Emergency-Contacts{
+  height: auto;
+  width: 100%;
+  gap: 30px;
+  
+
+}
+.div-section{
+  display: flex;
+  justify-content: center;
+ gap: 100px;
+ 
+  
+
+}
+.two-four{
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+}
+.contact-header{
+  background-color: #f9f9f9;
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: 800px;
+
+}
+.div-sec{
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+.main-contact{
+  background-color: #fdfdfd;
+}
+.sust{
+  padding-left: 40px;
+  background-color: #fdfdfd;
+}
+.image-contact {
+      background-image: url("contact.jpg"); 
+      background-size: cover;
+      background-position: center;
+      height: 300px; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+
+    }
+     .image-contact h1 {
+      position: absolute;
+      bottom: 400px;  
+      left: 200px;     
+      margin: 0;
+      font-size: 50px;
+      font-weight: 700;
+      color: rgb(83, 42, 165);
+    }
+     .map-container {
+      margin: 20px;
+      padding-bottom: 30px;
+      padding-top: 20px;
+    }
