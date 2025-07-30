@@ -276,7 +276,81 @@ nav ul li a.active {
       font-weight: 400;
       text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     }
+    .img-about-founder{
+      background-image: url("sir.jpg"); 
+      background-size: cover;
+      background-position: center;
+      height: 400px; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 3px solid white;
+    }
+    .founder-des {
+      width: 80%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 20px;
+      font-size: 20px;
+      font-weight: 700;
+      margin-left: 40px;
+      margin-right: 60px;
+      margin-top: 30px;
+    }
+    .founder-msg{
+     
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      margin-left: 300px;
+    }
+    .founder-msg h1{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
 
+    }
+.founder-section{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 30px;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+   
+}
+.des-image{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 0 auto;
+  margin-right: 20px;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+   
+}
+.des-image img{
+  margin-left: 20px;
+}
+.des{
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  padding: 4px 4px;
+  align-items: center;
+  width: 80%;
+  height: 50%;
+  margin: 0 auto;
+  margin-right: 50px;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+   margin-bottom: 20px;
+   padding: 10px 10px;
+}
+.message{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 /* ========== ACADEMICS PAGE STYLES ========== */
 
 .section {
