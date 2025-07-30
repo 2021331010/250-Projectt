@@ -1,23 +1,119 @@
-body{
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: poppins,"sans serif";
-    background-color: rgb(54, 54, 73);
+}
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px 20px;
+  display:flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-right: 10px
+}
+.link{
+   display:flex;
+  justify-content: space-between;
+  list-style: none;
+}
+/* TOP BAR */
+.topbar {
+  background: #f1f1f1;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+  
+ 
+}
+
+.topbar .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 15px;
+  
+}
+
+.topbar a {
+  color: #333;
+  text-decoration: none;
+}
+
+.topbar a:hover {
+  text-decoration: underline;
+  color: #006400;
+}
+
+/* MAIN NAVBAR */
+.main-header {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.site-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #14532d;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #14532d;
+  text-decoration: underline;
+}
+
+    body{
+   
+    background-color: rgb(194, 194, 194);
 }
 
 .head {
-   
-    padding-left: 40px;
-    
-    /* background-color: antiquewhite; */
-    
+   background-color: #c6cbc8;
+    padding-left: 10px;
+  
     
 }
 .heading {
     font-size:50px;
-    color: rgb(43, 226, 165);
-    text-align: center;
+    color: rgb(18, 158, 112);
+    padding-left: 30px;
     font-family: poppins,'sans-serif';
 
 }
@@ -29,6 +125,7 @@ body{
     font-size: 1.2rem;
     margin-top: 40px;
     padding-bottom: 40px;
+    flex-direction: column;
 
 }
 .dept_title p a{
@@ -39,8 +136,6 @@ body{
 
 }
 
-
-
 .specific_dept{
     background-color: rgb(5, 169, 115);
     height:60px ;
@@ -49,7 +144,9 @@ body{
     box-shadow: 3px 3px 3px rgb(18, 176, 121);
     text-align: center;
     border-radius: 5px;
+    padding-top: 15px;
     transition: transform .1s ease;
+   
 
 }
 .specific_dept:hover  {
@@ -68,16 +165,13 @@ body{
 
 /* Slideing image */
 .slideshow_container{
-    margin: 40px;
-    /* background-color: aquamarine; */
+    
+    margin-left: 100px;
+    height: 100%;
+    width: 100%;
 
 }
-.slide_wrapper{
-    position: relative; /*set position absolute to slide_navbar*/
-    max-width: 48rem;
-    margin: 0 auto;
 
-}
 
 
 .slide_wrapper {
@@ -146,47 +240,71 @@ body{
 }
 
 footer{
-    background-color: rgb(57, 55, 53);
-    padding: 40px;
-    margin: 0;
+    background-color: rgb(210, 208, 208);
+    padding: 20px;
+}
+
+
+footer .row{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+height: 100%;
+width: 100%;
+
+}
+footer .row h2{
+    font-size: 1.1rem;
+    transition: transform .3s ease;
+    padding-bottom: 10px;
 
 }
 
-.footer{
-    display: flex;
-    justify-content: space-around;
-    /* align-items: center; */
-    color: aliceblue;
-
-
+footer .row h2:hover{
+    transform: scale(1.06);
 }
 
-.sections p{
-    font:1.4rem;
-    font-weight: 600;
-
-}
-
-.sections ul li{
-    list-style: none;
-}
-.sections li a{
-    color: rgb(250, 253, 255);
-    text-decoration: none;
-
-}
-
- .copyright{
-    color: white;
-    height: 2px;
-    background-color: rgb(57, 55, 53);
-    padding-top: 10px;
-    text-align: center;
-   
+footer .row .col{
+    padding: 0 auto;
+    margin: 20px;
+    gap: 20px;
     
 }
 
-footer .copyright p{
-    font: 5px;
+footer .row .col ul li{
+    list-style: none;
 }
 
+footer .row .col ul li a{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+
+}
+#icon ul{
+    padding-top: 5px;
+    display: flex;
+    gap: 7px;
+    width: 130px;
+
+    /* background-color: aquamarine; */
+}
+
+#icon ul li{
+ 
+    height: 37px;
+    width: 100%;
+    text-align: center;
+    padding-top:10px ;
+    
+}
+
+#icon ul li:hover{
+    border-radius: 50%;
+    background-color: rgb(235, 238, 240);
+}
+
+.copyright{
+    text-align: center;
+    background-color: rgb(99, 96, 96);
+    margin-bottom: 0;
+}
