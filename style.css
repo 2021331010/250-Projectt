@@ -658,6 +658,9 @@ body{
 #img5:checked ~ .m5{
   margin-left: -125%;
 }
+#img6:checked ~ .m6{
+  margin-left: -150%;
+}
 
 .acheivement {
   display: flex;
@@ -666,7 +669,7 @@ body{
 }
 .ach_section{
   margin: 20px 50px;
-  background-color: rgba(0, 0, 0,0.3);
+  /* background-color: rgba(0, 0, 0,0.3); */
 }
 .ach_section h1{
   text-align: center;
@@ -687,19 +690,22 @@ body{
   background-color: #f9f9f9;
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.135);
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.135); */
   margin: 10px 40px;
 }
 
 .each-acv {
-  height: 60px;
+  height: auto;
   align-items: center;
   margin-left: 50px;
   font-size: 14px;
   font-weight: 500;
-  margin-top: 5px;
+  margin-top: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.135);
   padding: 10px 10px;
+  text-align: center;
+}
+.each-acv p{
   text-align: center;
 }
 
