@@ -351,6 +351,76 @@ nav ul li a.active {
   flex-direction: column;
   justify-content: center;
 }
+
+/* faculty */
+
+.image-faculty{
+    background-image: url("faculty.png"); 
+      background-size: cover;
+      background-position: center;
+      height: 400px; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.faculty-member{
+  
+  height: auto;
+  margin: 0px auto;
+  margin: 40px 40px;
+  padding: 10px 10px;
+}
+.faculty-member h1{
+  text-align: left;
+  margin-left: 30px;
+  padding: 5px 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: #fdfdfd;
+}
+.faculty-member h1:hover{
+  color: #1f3b2c;
+  background-color: lightgray;
+}
+.faculty-mem{
+  display: flex;
+  justify-content: space-between;
+  
+  gap: 5px;
+  margin: 0 auto;
+  align-items: center;
+  height: auto;
+  width: auto;
+  margin: 25px 25px;
+  padding: 10px 10px;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.each-member-faculty img{
+  border-radius: 50px;
+  margin: 15px 15px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+}
+.each-member-faculty h3,h4{
+  font-size: 18px;
+  font-weight: 500;
+}
+.each-member-faculty p{
+  font-size: 15px;
+  font-weight: 500;
+}
+.faculty-search{
+  height: 50px;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+
 /* ========== ACADEMICS PAGE STYLES ========== */
 
 .section {
@@ -500,3 +570,147 @@ nav ul li a.active {
       padding-bottom: 30px;
       padding-top: 20px;
     }
+
+
+
+
+     /* acheivement */
+
+     *{
+      box-sizing: border-box;
+     }
+
+     body{
+      height: 100vh;
+      /* display: flex;
+      justify-content: center; */
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.08);
+     }
+    .slider-ach{
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+     
+      margin-top: 40px;
+       background-color: rgba(0, 0, 0, 0.08);
+       padding: 10px 10px;
+    } 
+    .images-ach{
+      display: flex;
+      width: 100%;
+
+    }
+     .images-ach img{
+      height: 400px;
+      animation: slide 15s infinite;
+      width: 500vw;
+       object-fit: cover; 
+    display: block;
+      transition: all 0.15s ease;
+    }
+    @keyframes slide {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(0); }
+
+  25% { transform: translateX(-100vw); }
+ 
+
+  
+}
+body{
+  background-color: rgba(0, 0, 0,0.45);
+}
+
+     .images-ach input{
+      display: none;
+      
+    }
+    .dots{
+      display: flex;
+      justify-content: center;
+      margin: 5px;
+    }
+    .dots label{
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      border: solid #fff 3px;
+      cursor: pointer;
+      transition: all o.15s ease;
+      margin: 5px;
+    }
+.dots label:hover{
+  background-color: #fff;
+}
+#img1:checked ~ .m1{
+  margin-left: 0;
+}
+#img2:checked ~ .m2{
+  margin-left: -25%;
+}
+#img3:checked ~ .m3{
+  margin-left: -75%;
+}
+#img4:checked ~ .m4{
+  margin-left: -100%;
+}
+#img5:checked ~ .m5{
+  margin-left: -125%;
+}
+
+.acheivement {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.ach_section{
+  margin: 20px 50px;
+  background-color: rgba(0, 0, 0,0.3);
+}
+.ach_section h1{
+  text-align: center;
+  padding: 5px 5px;
+  color: #1f3b2c;
+  border: 2px solid burlywood;
+  background-color: #ccc;
+}
+.ach_section h1:hover{
+  background-color: #333;
+  color: burlywood;
+}
+
+.ac-std {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.135);
+  margin: 10px 40px;
+}
+
+.each-acv {
+  height: 60px;
+  align-items: center;
+  margin-left: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.135);
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.image-container img {
+  width: 300px;      
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+
+}
+  .image-container #b-ach {
+   height: 220px;
+   width: 300px;
+}
