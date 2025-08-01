@@ -1,0 +1,466 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.academic{
+    display: flex;
+    justify-content: space-between;
+}
+
+.side_navbar{
+  background-color: rgb(94, 233, 157);
+  margin-left: 30px;
+  margin-top: 150px;
+  margin-right: 0;
+  height: 110%;
+  width: 30%;
+  /* padding: 20px;
+  padding-top: 30px; */
+  
+
+
+}
+
+.side_navbar ul li{
+  list-style: none;
+  /* padding: 10px; */
+  /* border: 1px solid; */
+  background-color: rgb(238, 254, 249);
+  height: 65px;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 0;
+  
+  
+}
+.side_navbar ul li a{
+  text-decoration: none;
+  
+  /* background-color: cadetblue; */
+
+}
+.side_navbar ul li :hover {
+  /* background-color: #a90d0d; */
+  font-size: 1.1rem;
+  transform: scale(1.1);
+
+}
+.side_navbar ul li:hover a{
+  color: rgb(33, 55, 248);
+}
+
+
+.side_navbar ul li:hover strong{
+  color: rgb(59, 53, 248);
+}
+
+.side_navbar ul li {
+  position: relative;
+}
+.side_navbar ul li strong{
+  position: absolute;
+  right: 0;
+  padding-right: 15px;
+}
+
+
+
+
+.academic-image{
+
+    background-image: url("academic.jpg");
+     background-size: cover;
+      background-position: center;
+      height: 300px; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.academic-section{
+    background-color: rgba(0,0,0,0.05);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    
+    height: auto;
+    width: 80%;
+    margin: 20px 50px;
+}
+.academic-main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   gap: 25px;
+   padding: 10px 20px;
+    
+}
+.card-header{
+
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    
+}
+.card-header p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.card-header h2{
+    color: seagreen;
+}
+.card1{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,5);
+    padding: 10px 10px;
+    
+}
+.card-img1{
+     background-size: cover;
+      background-position: center;
+      height: 300px;
+     
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 30px;
+}
+
+.academic-title {
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.25) ;
+    padding: 10px 10px;
+    color: seagreen;
+    margin-bottom: 10px;
+
+}
+.academic-title:hover{
+    background-color: rgba(0,0,0,0.25);
+    color: white;
+}
+
+
+.dept-image{
+    background-image: url("deptt.jpg");
+     background-size: cover;
+      background-position: center;
+      height: 400px; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+}
+
+
+.eee-image{
+  background-image: url("eeelab.jpg");
+   background-size: cover;
+      background-position: center;
+      height: 400px; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid yellowgreen;
+      padding: 10px 10px;
+
+}
+.eee-image h1{
+   
+   color: yellow;
+   margin-right: 600px ;
+   margin-top: 180px;
+   font-weight: 700;
+}
+
+.eee-des{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: auto;
+  margin-left: 100px;
+  margin-top: 40px;
+  padding: 30px 30px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.eee-des h1{
+  color: sienna;
+  margin-bottom: 10px;
+
+}
+
+.eee-des h1:hover{
+  color: seagreen;
+
+}
+
+
+/* cse */
+
+.message-from-head-cse{
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 50px 50px;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.message-from-head-cse h1 {
+    color: #b30000; 
+    font-size: 28px;
+    margin-bottom: 20px;
+     border-left: 5px solid #b30000; 
+    padding-left: 10px;
+}
+
+.head-content-cse {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.head-content-cse img {
+    width: 160px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.head-content-cse h3 {
+    margin: 0;
+    font-size: 22px;
+    color: #000;
+}
+
+.head-content-cse p {
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.img-head{
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.cse-description{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  margin-left: 100px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+
+  
+}
+.cse-description h1{
+  color: saddlebrown;
+  margin-right: 20px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,1);
+  padding: 7px 7px;
+}
+.cse-description h1:hover{
+  color: seagreen;
+  background-color: bisque;
+}
+.about-cse-detail{
+  margin-left: 100px;
+  padding: 10px 10px;
+  gap: 100px;
+  
+}
+.about-cse{
+  
+  box-shadow: 3px 3px 7px rgba(0,0,0,0.15);
+}
+
+.courses-cse {
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.courses-cse h2 {
+  font-size: 26px;
+  color: #b30000;
+  border-left: 5px solid #b30000;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+
+.cse-course-des {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px 10px;
+  border: 3px solid rgba(0, 0, 0, 0.05);
+}
+
+
+.list-course-cse {
+  width: 65%;
+}
+
+.list-course-cse ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #333;
+}
+
+.list-course-cse li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  list-style: square;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+.course-img {
+  width: 30%;
+  height: 300px;
+  background-image: url("comuter.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* institute */
+
+.institute-image{
+  background-image: url("swe.jpg");
+     background-size: cover;
+      background-position: center;
+      height: 400px; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.institute-image h1 {
+    font-size: 32px;
+   
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.swe-detail {
+  margin: 50px auto;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 3px solid rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.about-swe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+  flex-wrap: wrap; 
+}
+
+.swe-des {
+  flex: 1;
+  min-width: 250px;
+  color: #000;
+}
+
+.swe-des h3 {
+  font-size: 22px;
+  color: #b30000;
+  margin-bottom: 10px;
+}
+
+.swe-des p {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.swe-img {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swe-img img {
+  width: 300px; 
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.swe-descrip{
+
+  width: 30%;
+  height: auto;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow:  0 2px 6px rgba(0, 0, 0, 0.15); ;
+
+}
+.swe-descrip p{
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+.swe-descrip h1{
+ 
+  font-weight: 900;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: saddlebrown;
+}
+
+i {
+  font-size: 40px;
+  color: black;
+  margin-left: 100px;
+  margin-top: 40px;
+  text-align: center;
+  align-items: center;
+}
