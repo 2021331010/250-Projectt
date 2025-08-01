@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #bab7b7;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px 20px;
+  display:flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-right: 10px
+}
+.link{
+   display:flex;
+  justify-content: space-between;
+  list-style: none;
+}
+/* TOP BAR */
+.topbar {
+  background: #f1f1f1;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+}
+
+.topbar .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.topbar a {
+  color: #333;
+  text-decoration: none;
+}
+
+.topbar a:hover {
+  text-decoration: underline;
+  color: #006400;
+}
+
+/* MAIN NAVBAR */
+.main-header {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.site-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #14532d;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #14532d;
+  text-decoration: underline;
+}
+
+ 
+
+.entire_faculty .faculty img{
+  height:200px ;
+  width: 200px;
+  border-radius: 50%;
+}
+.entire_faculty{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  /* background-color: #3e435f; */
+  margin: 2%;
+  padding: minmax(10px,10%);
+  padding-top: 14px;
+
+
+
+}
+
+.entire_faculty .faculty{
+  height: 380px;
+  width: 300px;
+  box-shadow: 1px 2px 2px 1px  rgb(173, 171, 171) ;
+border-radius:4px ;
+text-align: center;
+transition: all .3s ease;
+padding-top: 10px;
+}
+.entire_faculty .faculty:hover 
+
+{
+  background-color: rgb(37, 65, 90);
+  transform: scale(1.04) ;
+  color:#ffffff
+
+}
+
+
+.faculty_member{
+  /* background-color: #14532d; */
+  text-align: center;
+  color: #062d92;
+  padding: 5px;
+  padding-top: 15px;
+  /* border-left: 3px solid #004458; */
+}
+.faculty_member h1{
+  /* background-color: #006400; */
+  margin:7px 45%;
+    border-left: 10px solid #e87c10f9;
+    
+
+}
+
+.faculty-search{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.faculty-search input{
+height: 25px;
+border-radius: 5px;
+
+}
+
+.faculty-search input{
+  position: relative;
+}
+.faculty-search .icon{
+position: absolute;
+right: 0;
+}
+
+hr{
+  border: 1px solid aliceblue;
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+
+}
+footer{
+    background-color: rgb(210, 208, 208);
+    padding: 20px;
+}
+
+
+footer .row{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+height: 100%;
+width: 100%;
+
+}
+footer .row h2{
+    font-size: 1.1rem;
+    transition: transform .3s ease;
+    padding-bottom: 10px;
+
+}
+
+footer .row h2:hover{
+    transform: scale(1.06);
+}
+
+footer .row .col{
+    padding: 0 auto;
+    margin: 20px;
+    gap: 20px;
+    
+}
+
+footer .row .col ul li{
+    list-style: none;
+}
+
+footer .row .col ul li a{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+
+}
+#icon ul{
+    padding-top: 5px;
+    display: flex;
+    gap: 7px;
+    width: 130px;
+
+    /* background-color: aquamarine; */
+}
+
+#icon ul li{
+ 
+    height: 37px;
+    width: 100%;
+    text-align: center;
+    padding-top:10px ;
+    
+}
+
+#icon ul li:hover{
+    border-radius: 50%;
+    background-color: rgb(235, 238, 240);
+}
+
+.copyright{
+    text-align: center;
+    background-color: rgb(99, 96, 96);
+    margin-bottom: 0;
+}
+
+.roww{
+  display: flex;
+  align-items: center;
+  padding: 3px 20px;
+  background-color: #ffffff;
+  border: 1px solid;
+  margin-right: 5px;
+  position: relative;
+  border-radius: 4px;
+
+}
+
+input{
+  flex: 1;
+  height: 50px;
+  background-color: #062d92;
+  background:transparent ;
+  border :0;
+  outline:0;
+  font-size: 18px;
+  color: #333;
+}
+
+button{
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+
+.facult_member button i{
+  width: 25px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+::placeholder{
+  color:rgb(133, 131, 131) ;
+
+}
+
+
