@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>INSIGHT - IICT, SUST</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="faculty.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">   
+  <meta charset="UTF-8">
+  <title>Full-Screen Image Slider</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
 <body>
+
+  
 <div class="container-nav">
         <div class="logo">
             <img src="sust_logo.png" alt="SUST logo">
@@ -53,48 +52,24 @@
 
         </div>
     </div>
-  
+
+
   <div class="container-index">
-    <img src="arrow.png" class="arrow left">
+    <i class="fas fa-angle-left arrow left"></i>
 
     <div class="frame-index">
-     
-      <div class="slider-index">
-
-         <img src="index1.jpg" class="image-index">
-      <img src="index2.jpg" class="image-index">
-       <img src="cselab2.jpg" class="image-index">
-        <img src="about1.jpg" class="image-index">
-
+      <div class="slider-index" id="slider">
+        <img src="index1.jpg" class="image-index" />
+        <img src="index2.jpg" class="image-index" />
+        <img src="cselab2.jpg" class="image-index" />
+        <img src="about1.jpg" class="image-index" />
       </div>
-
-    
-
-
     </div>
 
-     <img src="arrow.png" class="arrow right">
-
-
+    <i class="fas fa-angle-right arrow right"></i>
   </div>
-    
 
-    
-     
-<script src="script.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <script src="script.js"></script>
 
 
   <footer>
@@ -144,6 +119,5 @@
     <div class="copyright">
         <p>Copyright © SUST, 2025</p>
        </div>
-
 </body>
-
+</html>
