@@ -229,7 +229,7 @@ nav ul li a.active {
 }
 
 .image-about {
-      background-image: url("about.jpg"); 
+      background-image: url("about1.jpg"); 
       background-size: cover;
       background-position: center;
       height: 300px; 
@@ -421,37 +421,9 @@ nav ul li a.active {
   margin: 20px 50px;
 }
 
-/* ========== ACADEMICS PAGE STYLES ========== */
 
-.section {
-  padding: 60px 20px;
-  background-color: #fdfdfd;
-}
 
-.section-title {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  color: #14532d;
-  border-left: 6px solid #14532d;
-  padding-left: 12px;
-}
 
-.section h2 {
-  font-size: 24px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  color: #1f3b2c;
-  border-bottom: 2px solid #e0e0e0;
-  padding-bottom: 6px;
-}
-
-.section p {
-  font-size: 16px;
-  line-height: 1.7;
-  color: #333;
-  margin-bottom: 20px;
-}
 
 .list {
   padding-left: 20px;
@@ -618,9 +590,9 @@ nav ul li a.active {
 
   
 }
-body{
+/* body{
   background-color: rgba(0, 0, 0,0.45);
-}
+} */
 
      .images-ach input{
       display: none;
@@ -669,7 +641,7 @@ body{
 }
 .ach_section{
   margin: 20px 50px;
-  /* background-color: rgba(0, 0, 0,0.3); */
+  background-color: rgba(0, 0, 0,0.3);
 }
 .ach_section h1{
   text-align: center;
@@ -690,7 +662,7 @@ body{
   background-color: #f9f9f9;
   padding: 15px;
   border-radius: 8px;
-  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.135); */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.135);
   margin: 10px 40px;
 }
 
@@ -720,3 +692,110 @@ body{
    height: 220px;
    width: 300px;
 }
+
+
+/* curriculum */
+.curr-image{
+background-image: url("curri.png"); 
+      background-size: cover;
+      background-position: center;
+      height: 400px; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+      
+
+.curriculum{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 150px;
+  background-color: #3A6D8C;
+  gap: 40px;
+  margin: 50px 50px;
+  padding: 20px 20px;
+}
+
+.curriculum-detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0,0.3);
+  border: 3px solid rgba(0,0,0,0.7);
+  padding: 10px 10px;
+
+}
+
+.curr-credit .info-line {
+  display: flex;
+  gap: 0;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.curr-credit h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.curr-credit p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+.curriculum-table h2{
+  text-align: center;
+
+}
+.curriculum-table{
+border-radius: 50px;
+}
+.curriculum-table table {
+  width: 70%;
+  border-collapse: collapse;
+  
+  font-family: Arial, sans-serif;
+  margin-left: 250px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.curriculum-table th {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+}
+
+.curriculum-table td, .curriculum-table th {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+ 
+}
+
+
+.curri-iframe{
+   
+            width: 80%;
+            height: 500px;
+            border: 2px solid black;
+            margin-left: 150px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 10px 10px;
+        
+}
+#curri-pdf  {
+           margin-left: 100px;
+            text-align: center;
+            color: brown;
+        }
+
+        #curri-pdf:hover{
+          color: seagreen;
+        }
