@@ -146,11 +146,7 @@ body {
    
 }
 
-body {
-  font-family: 'Segoe UI', sans-serif;
-  line-height: 1.6;
-  background-color: #fff;
-}
+
 
 /* Container */
 .container {
@@ -940,4 +936,5 @@ border-radius: 50px;
         #curri-pdf:hover{
           color: seagreen;
         }
+
 
