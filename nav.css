@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid #e5e5e5;
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+}
+
+.logo img {
+  height: 80px;
+}
+
+.parallel-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contact-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.contact-nav a {
+  text-decoration: none;
+  color: #555050;
+  font-size: 0.85rem;
+  transition: color 0.2s;
+}
+
+.contact-nav a:hover {
+  color: #062ea4;
+  text-decoration: underline;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  transition: color 0.3s, border-bottom 0.3s;
+  padding: 5px 0;
+}
+
+.main-nav a:hover {
+  color: #1144c4;
+  border-bottom: 2px solid #04AA6D;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .parallel-nav {
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .contact-nav ul,
+  .main-nav ul {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+.dropdown {
+  position: relative; 
+  display: inline-block;
+}
+
+
+.dropdown-box li a {
+  display: block;
+  padding: 9px 16px;
+  text-decoration: none;
+  color: #222;
+  white-space: nowrap; 
+}
+
+.dropdown-box li a:hover {
+  background-color: #ddd;
+  color: #093d2a;
+}
+
+.dropdown-box {
+  display: none;
+  position: absolute;
+  
+  top: 100%;
+  left: 0;
+  background-color: #6cdab2;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  border-radius: 5px;
+  z-index: 10; 
+
+ 
+  padding: 0; 
+  margin: 0; 
+}
+
+
+.dropdown:hover .dropdown-box {
+  display: block;
+}
+
+
+.dropdown-box {
+    opacity: 0;
+    visibility: hidden;
+  
+}
+
+.dropdown:hover .dropdown-box {
+    opacity: 1;
+    visibility: visible;
+   
+}
