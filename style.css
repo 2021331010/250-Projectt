@@ -9,7 +9,7 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #f9f9f9;
+  /* overflow-x: hidden; */
 }
 
 .container-nav {
@@ -17,11 +17,12 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-  background-color: rgb(255, 255, 255);
+  background-color: #3a4c81fb;
   border-bottom: 2px solid #e5e5e5;
   position: sticky;
   top: 0;
   z-index: 1000; 
+  
 }
 
 .logo img {
@@ -44,7 +45,7 @@ body {
 
 .contact-nav a {
   text-decoration: none;
-  color: #555050;
+  color: #ffffff;
   font-size: 0.85rem;
   transition: color 0.2s;
 }
@@ -64,15 +65,15 @@ body {
 
 .main-nav a {
   text-decoration: none;
-  color: #222;
+  color: #ffffff;
   font-weight: 500;
   transition: color 0.3s, border-bottom 0.3s;
   padding: 5px 0;
 }
 
 .main-nav a:hover {
-  color: #1144c4;
-  border-bottom: 2px solid #04AA6D;
+  /* color: #1144c4; */
+  border-bottom: 2px solid #ffffff;
 }
 
 @media screen and (max-width: 768px) {
@@ -118,7 +119,7 @@ body {
   
   top: 100%;
   left: 0;
-  background-color: #6cdab2;
+  background-color: #ffffff;
   min-width: 220px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   list-style: none;
@@ -1280,6 +1281,7 @@ footer .row .col ul li a{
   color: seagreen;
   background-color: #333;
 }
+
 
 
 
