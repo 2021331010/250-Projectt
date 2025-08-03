@@ -1106,6 +1106,16 @@ background-image: url("curri.png");
   padding: 20px 20px;
 }
 
+.curriculum h1{
+  /* text-align: center; */
+  color: #000000;
+  /* background-color: #000400; */
+  /* width: 35%; */
+  margin-left: 500px;
+  padding-left: 17px;
+  border-left: 10px solid rgb(12, 80, 182);
+}
+
 .curriculum-detail{
   display: flex;
   flex-direction: column;
@@ -1401,6 +1411,7 @@ footer .row .col ul li a{
   color: seagreen;
   background-color: #333;
 }
+
 
 
 
