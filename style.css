@@ -629,6 +629,13 @@ nav ul li a.active {
 
 /* contact */
 
+
+
+
+    body{
+  background-color: #b2b7c8fb;
+}
+
 .Emergency-Contacts{
   height: auto;
   width: 100%;
@@ -655,16 +662,19 @@ nav ul li a.active {
   background-color: #f9f9f9;
   text-align: center;
   padding-bottom: 30px;
+ 
   font-weight: 800px;
 
 }
 .div-sec{
-   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+   box-shadow: 0 4px 20px #dadbc4fb;
+   padding: 5px 5px;
 }
 .main-contact{
   background-color: #fdfdfd;
 }
 .sust{
+  margin-top: 10px;
   padding-left: 40px;
   background-color: #fdfdfd;
 }
@@ -679,20 +689,25 @@ nav ul li a.active {
       
 
     }
+
+    
      .image-contact h1 {
       position: absolute;
-      bottom: 400px;  
-      left: 200px;     
+      bottom: 380px;  
+      left: 180px;     
       margin: 0;
       font-size: 50px;
       font-weight: 700;
-      color: rgb(83, 42, 165);
+      color: sienna;
     }
      .map-container {
       margin: 20px;
       padding-bottom: 30px;
       padding-top: 20px;
     }
+
+
+
 
 
 
@@ -1156,4 +1171,5 @@ footer .row .col ul li a{
   color: seagreen;
   background-color: #333;
 }
+
 
