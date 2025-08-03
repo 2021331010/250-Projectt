@@ -9,6 +9,8 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
+    background-color: #b2b7c8fb;
+
   /* overflow-x: hidden; */
 }
 
@@ -264,10 +266,19 @@ body {
 
 
 /* about-styles */
-.about-section h1{
+
+ .about-section h1{
   text-align: center;
-  padding: 20px 20px;
+margin: 49px auto;
+margin-top:100px ;
+  padding: 2px;
+  width: 200px;
+  border-left: 8px solid rgb(9, 114, 194);
 }
+.about-section{
+  margin-bottom: 30px;
+}
+
 
 
 .grid-cards{
@@ -275,73 +286,88 @@ body {
   justify-content: space-between;
   flex-direction: column;
   gap: 30px;
+  color: #000000;
+  width: 100%;
   
 }
 .card {
-  display: flex;
-  gap: 30px;
-  margin-left: 500px; 
-  align-items: center;
+ display: flex;
+  gap: 10px;
+  width: 85%;
+  margin:0 100px;
+  background-color: #333d4b;
+margin-right: 200px;
+border-radius: 15px;
 
 }
 
 
 
 .card1 img {
-  width: 300px;
-  height: 300px;       
-  padding: 10px 10px;
-  border-radius: 10px; 
+width: 300px;
+  height: 250px;       
+  padding: 30px 10px;
+  border-radius: 15px; 
   margin-right: 100px;
+
 }
 
 .card2 {
-  display: flex;
+   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: auto;
-  width: 500px;
-  margin-right: 40px;
-  border: 3px solid white;
+  height: 250px;
+  background-color: #b2b7c8fb;
+  width: 850px;
+margin: 10px 30px; 
+ border: 3px solid none;
+    border-radius: 15px;
+
   padding: 20px 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+
 }
 .card2 p{
-  font-size: 15px;
+font-size: 20px;
   text-align: left;
   margin-right: 10px;
+  padding: 5px 0;
 }
 .card2 h2{
-   margin-left: 10px;
+ margin-left: 10px;
+   /* background-color: #14532d; */
+   padding-bottom:10px;
 }
 
 .btn {
-  display: inline-block;
+ display: inline-block;
   margin-top: 10px;
-  padding: 5px 10px;
-  border: 1px solid black;
-  color: white;
+  padding: 10px 10px;
+  border: 1px solid none;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   border-radius: 5px;
   text-align: center;
   font-weight: 700;
   width: 140px;             
   height: 45px;
-  background-color: rgb(66,66,156);     
+  background-color: rgb(66, 66, 156);
+    transition: transform .1s ease;      
 }
 .btn:hover{
-  color: aquamarine;
-  background-color: yellowgreen;
+ transform: scale(1.05);
+
 }
 
-.image-about {
-      background-image: url("about1.jpg"); 
+.image-about img{
+      
       background-size: cover;
-      background-position: center;
-      height: 300px; 
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      height: 320px; 
+      width: 100%;
+background-color: #006400;
+   margin-bottom: 35px;
+
+    }
       
 
     }
@@ -456,17 +482,15 @@ padding: 50px;
 
     /* about-iict */
     .image-iict{
-      background-image: url("about-iict.jpg"); 
-      background-size: cover;
-      background-position: center;
-      height: 400px; 
+     
       display: flex;
       align-items: center;
       justify-content: center;
       border: 3px solid white;
+      background-color: #006400;
     }
     .container-iict h4{
-      font-size: 20px;
+       font-size: 20px;
       margin-right: 50px;
       margin-left: 100px;
       font-weight: 600;
@@ -481,9 +505,7 @@ padding: 50px;
     }
 
     /* mision-vision */
-    body{
-      background-color: #b2b7c8fb;
-    }
+   
 .mission-section{
   height: 90%;
   width: auto;
@@ -1285,6 +1307,7 @@ footer .row .col ul li a{
   color: seagreen;
   background-color: #333;
 }
+
 
 
 
