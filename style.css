@@ -482,7 +482,7 @@ padding: 50px;
 
     /* about-iict */
     .image-iict{
-     
+      background-image: url("about-iict.jpg"); 
       display: flex;
       align-items: center;
       justify-content: center;
@@ -1307,6 +1307,7 @@ footer .row .col ul li a{
   color: seagreen;
   background-color: #333;
 }
+
 
 
 
