@@ -481,13 +481,24 @@ padding: 50px;
 }
 
     /* about-iict */
-    .image-iict{
+/*     .image-iict{
       background-image: url("about-iict.jpg"); 
       display: flex;
       align-items: center;
       justify-content: center;
       border: 3px solid white;
       background-color: #006400;
+    } */
+
+.image-iict{
+      background-image: url("about-iict.jpg"); 
+      background-size: cover;
+      background-position: center;
+      height: 400px; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 3px solid white;
     }
     .container-iict h4{
        font-size: 20px;
@@ -1307,6 +1318,7 @@ footer .row .col ul li a{
   color: seagreen;
   background-color: #333;
 }
+
 
 
 
