@@ -967,6 +967,7 @@ nav ul li a.active {
 
 
 /* curriculum */
+
 .curr-image{
 background-image: url("curri.png"); 
       background-size: cover;
@@ -983,7 +984,7 @@ background-image: url("curri.png");
   flex-direction: column;
   justify-content: space-between;
   margin-left: 150px;
-  background-color: #3A6D8C;
+  /* background-color: #3A6D8C; */
   gap: 40px;
   margin: 50px 50px;
   padding: 20px 20px;
@@ -994,15 +995,15 @@ background-image: url("curri.png");
   flex-direction: column;
   justify-content: space-between;
   gap: 50px;
-  box-shadow: 5px 5px 7px rgba(0, 0, 0,0.3);
-  border: 3px solid rgba(0,0,0,0.7);
+  box-shadow: 5px 5px 7px #dadbc4fb;
+  border: 1px solid rgb(255, 255, 255);
   padding: 10px 10px;
 
 }
 
 .curr-credit .info-line {
   display: flex;
-  gap: 0;
+  gap: 5px;
   align-items: center;
   margin-bottom: 5px;
 }
@@ -1029,10 +1030,10 @@ border-radius: 50px;
 .curriculum-table table {
   width: 70%;
   border-collapse: collapse;
-  
+  background-color: #566277fb;
   font-family: Arial, sans-serif;
   margin-left: 250px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 5px #dadbc4fb;
 }
 
 .curriculum-table th {
@@ -1042,7 +1043,7 @@ border-radius: 50px;
 }
 
 .curriculum-table td, .curriculum-table th {
-  border: 1px solid #ccc;
+  border: 2px solid rgb(255, 255, 255);
   padding: 10px;
   text-align: center;
  
@@ -1056,7 +1057,7 @@ border-radius: 50px;
             border: 2px solid black;
             margin-left: 150px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 10px #dadbc4fb;
             margin-top: 20px;
             margin-bottom: 20px;
             padding: 10px 10px;
@@ -1071,6 +1072,9 @@ border-radius: 50px;
         #curri-pdf:hover{
           color: seagreen;
         }
+
+
+
 
 /* admission  */
 
@@ -1281,6 +1285,7 @@ footer .row .col ul li a{
   color: seagreen;
   background-color: #333;
 }
+
 
 
 
